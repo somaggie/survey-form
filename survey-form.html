@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Green Eggs & Ham Survey</title>
+   <link rel="stylesheet" href="survey-form-styles.css"
+</head>
+<body> 
+    <main>
+      <form id = "survey-form">
+        <h1 id = "title"> Green Eggs & Ham Survery Form </h1>
+    <p id = "description">Thank you for your time. We enjoy seeing all responses. </p>
+        
+        
+        <label for="name" id = "name-label"> <h2>Name </h2></label>
+          <input id = "name" type = "text" placeholder = "Enter your name" required> 
+       
+        <br> 
+        <label for="email" id="email-label"><h2>Email </h2></label>
+          <input id = "email" type = "email" placeholder = "Enter your email" required> 
+        
+        
+        <!-- drop down option here -->
+        <label for = "read-book"><h2>Have you read Green Eggs & Ham by Dr.Suess?</h2></label>
+        <select id="dropdown" name = "read-book" id = "read-book">
+          <option value = "yes"> Yes </option>
+          <option name = "no"> No </option>
+          <option name = "currently-reading"> Currently reading </option>
+        </select>
+    
+        
+        <label for="Do-you-like-green-eggs-and-ham"><h2>Do you like green eggs and ham?</h2></label>
+        <!-- radio buttons-->
+        <label for = "yes">
+          <input id = "yes" value = "yes" type = "radio" name = "like-green-eggs-and-ham"> Yes 
+        </label>
+        <br>
+        <label for = "no">
+          <input id = "no" value = "no" type = "radio" name = "like-green-eggs-and-ham"> No 
+        </label>
+        <br>
+        <label for = "they-are-so-good-so-good-you-see">
+          <input id = "they-are-so-good-so-good-you-see" value = "they-are-so-good-so-good-you-see" type = "radio" name = "like-green-eggs-and-ham"> They are so good, so good you see! 
+        </label>
+        
+        
+        <label id = "number-label" for="rate-green-eggs-and-ham"><h2>How much do you like green eggs and ham on a scale of 1-10 with 10 being the highest?</h2></label>
+          <input type = "number" min = 1 max = 10 id="number" value="rate-green-eggs-and-ham" name = "rate-green-eggs-and-ham" placeholder="1"> 
+        
+        <label name = "where-would-you-eat-green-eggs-and-ham"><h2>Where would you eat green eggs and ham?</h2></label>
+        <!-- checkboxes-->
+        <label for = "here">
+          <input id = "here" value = "here" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham" checked> Here 
+        </label>
+        <br>
+        
+          <label for = "there">
+          <input id = "there" value = "there" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> There 
+        </label>
+        <br>
+        
+          <label for = "in-a-house">
+          <input id = "in-a-house" value = "-in-a-house" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> In a house 
+        </label>
+        <br>
+        
+        <label for = "with-a-mouse">
+          <input id = "with-a-mouse" value = "with-a-mouse" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> With a mouse 
+        </label>
+        <br>
+        
+        <label for = "in-a-box">
+          <input id = "in-a-box" value = "in-a-box" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> In a box 
+        </label>
+        <br>
+        
+        <label for = "with-a-fox">
+          <input id = "with-a-fox" value = "with-a-fox" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> With a fox 
+        </label>
+        <br>
+        
+        <label for = "in-a-car">
+          <input id = "in-a-car" value = "in-a-car" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> In a car 
+        </label>
+        <br>
+        
+        <label for = "in-a-tree">
+          <input id = "in-a-tree" value = "in-a-tree" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> In a tree 
+        </label>
+        <br>
+        
+        <label for = "on-a-train">
+          <input id = "on-a-train" value = "on-a-train" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> On a train 
+        </label>
+        <br>
+        
+        <label for = "in-the-rain">
+          <input id = "in-the-rain" value = "in-the-rain" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> In the rain 
+        </label>
+        <br>
+        
+        <label for = "in-the-dark">
+          <input id = "in-the-dark" value = "in-the-dark" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> In the dark 
+        </label>
+        <br>
+        
+        <label for = "with-a-goat">
+          <input id = "with-a-goat" value = "with-a-goat" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> With a goat 
+        </label>
+        <br>
+        
+        <label for = "on-a-boat">
+          <input id = "on-a-boat" value = "on-a-boat" type = "checkbox" name = "where-would-you-eat-green-eggs-and-ham"> On a boat 
+        </label>
+        <br>
+        
+        
+        <label for = "recipe"> <h2> Please share your favorite Green Eggs and Ham recipie below. </h2></label>
+        <textarea id="recipe" name="recipe" rows="4" columns="50">
+          Share your recipe here </textarea> 
+        
+        <br>
+        <button id="submit" type = "submit"> Submit! </button>
+      </form>     
+    </main>
+  </body>
+  </html>
